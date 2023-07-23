@@ -33,12 +33,12 @@ const page = () => {
       <div className="w-full flex mx-auto mt-[2rem] justify-center">
         <div className="flex gap-2 flex-col md:flex-row items-center ">
           <Banners
-            url="https://cdn.discordapp.com/attachments/1120293123185193051/1127666682257756180/10_sec_rev.gif"
-            link="https://t.me/RedMarkets"
+            url="https://media.discordapp.net/attachments/1106796662170591353/1126278593023049789/image.png"
+            link="https://pixelmp.store"
           />
           <Banners
-            url="https://media.discordapp.net/attachments/1120293123185193051/1130938223238074540/With_the_long_info.gif?width=1440&height=303"
-            link="https://t.me/RedConsumer"
+            url="https://i.imgur.com/gyoAm7J.jpeg"
+            link="https://pixelmp.store"
           />
         </div>
       </div>

@@ -50,19 +50,22 @@ const page = () => {
           Find Your Favorite Models
         </p>
       </div>
-      <div className="container mx-auto">
+      <div className="container mx-auto ">
       <div className="flex  items-center mb-5   flex-col justify-center mt-10 ">
       <div className="grid lg:grid-cols-3 xl:grid-cols-4 lg:grid-rows- md:grid-cols-2 z-10 ">
         {card.length === 0  ? (
-          <div className="flex gap-12 w-[100%]"><LoadingCard /><LoadingCard /><LoadingCard /><LoadingCard /></div>
+          <div className="flex md:flex-row flex-col gap-12 w-[100%]"><LoadingCard /><LoadingCard /><LoadingCard /><LoadingCard /></div>
         ) : (
         card.map((girl) => (
-          <CardComponent
-            key={girl._id}
-            name={girl.name}
-            megaLink={girl.megaLink}
-            girlPhoto={girl.girlPhoto}
-          />
+          <div key={girl._id}>
+            <CardComponent
+              key={girl._id}
+              name={girl.name}
+              megaLink={girl.megaLink}
+              girlPhoto={girl.girlPhoto}
+            />
+
+          </div>
         )))}
       </div>
       </div>

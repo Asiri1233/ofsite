@@ -1,9 +1,9 @@
 "use client";
 import { Card, Col, Row, Button, Text } from "@nextui-org/react";
-
+//grid grid-cols-4
 const CardComponent = ({ name, megaLink, girlPhoto}) => (
-    <div className="grid grid-cols-4">
-     <div className="my-5">   
+    <div className="">
+     <div className="my-5 mx-5">   
   <Card css={{ w: "20rem", h: "400px" }}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>

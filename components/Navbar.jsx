@@ -17,7 +17,7 @@ const Navbar = () => {
             <img
               src="https://cdn.icon-icons.com/icons2/3007/PNG/512/onlyfans_logo_icon_188453.png"
               className="h-8 mr-3"
-              alt="Flowbite Logo"
+              alt="Logo"
             />
             <span  className="self-center md:text-2xl text-lg font-semibold whitespace-nowrap text-white">
               Leaked Fans

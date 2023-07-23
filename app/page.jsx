@@ -20,7 +20,7 @@ const page = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/v1/girls")
+      .get("https://tidy-mercurial-bolt.glitch.me/api/v1/girls")
       .then((res) => {
         const shuffledCard = shuffleArray(res.data);
         setCard(shuffledCard);
